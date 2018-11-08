@@ -5,7 +5,7 @@ class SectionB extends Component {
   render() {
     return (
       <div>
-        <img src={} alt="broken-image-icon"></img>
+       <h2>you are not broken</h2>
       </div>
     );
   }

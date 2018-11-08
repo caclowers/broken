@@ -4,9 +4,11 @@ import '../../App.css';
 class Header extends Component {
   render() {
     return (
-        <header className="App-header">
+      <header className="App-header">
+        <div id="imageDiv">
           <h1>Hello Dreamer</h1>
-        </header>
+        </div>
+      </header>
     );
   }
 }
