@@ -17,6 +17,11 @@
   color: #61dafb;
 }
 
+#crafts img{
+  height: 19rem;
+  width: auto
+}
+
 #imageDiv{
   align-items: center;
   background-image: url("../src/images/broken-glass.jpeg");
