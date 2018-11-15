@@ -30,6 +30,16 @@ body{
   width: auto
 }
 
+#fuckDiv{
+  margin: 5rem;
+  font-size: 4rem;
+  color: white
+}
+
+#fuckDiv:hover{
+  color: black;
+}
+
 #imageDiv{
   align-items: center;
   background-image: url("../src/images/broken-glass.jpeg");
