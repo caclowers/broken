@@ -1,3 +1,7 @@
+body{
+  background-color: #B4DA55;
+}
+
 .App {
   text-align: center;
 }
@@ -17,8 +21,12 @@
   color: #61dafb;
 }
 
+#crafts{
+  color: white;
+  margin: 2rem;
+}
 #crafts img{
-  height: 19rem;
+  height: 32rem;
   width: auto
 }
 
@@ -29,6 +37,10 @@
   justify-content: center;
   min-height: 50rem;
   width: 100%;
+}
+
+#sectionB{
+  margin-bottom:4rem;
 }
 
 @keyframes App-logo-spin {

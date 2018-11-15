@@ -61,7 +61,7 @@ class Crafts extends Component {
             title={craft.info}
             alt={craft.tag}>
           </img>
-          <p>{craft.tag}</p>
+          <h4>{craft.tag}</h4>
         </div>
       )
     })
