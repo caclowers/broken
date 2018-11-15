@@ -6,6 +6,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import SectionA from './components/Sections/SectionA.js';
 import SectionB from './components/Sections/SectionB.js';
+import SectionC from './components/Sections/SectionC.js';
 class App extends Component {
   render() {
     return (
@@ -14,6 +15,7 @@ class App extends Component {
         <Carousel />
         <SectionA />
         <SectionB />
+        <SectionC />
       </div>
     );
   }
