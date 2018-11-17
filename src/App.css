@@ -33,17 +33,17 @@ body{
 #fuckDiv{
   padding: 5rem;
   font-size: 4rem;
-  color: #B4DA55
+  color: #B4Da55;
 }
 
 #fuckDiv:hover{
-  color: black;
-  text-shadow: 0.4rem 0.4rem 1rem black;
+  color: #B4Da55;
+  text-shadow: 0.14rem 0.14rem 0.5rem rgb(143, 173, 67);
 }
 
 #fuckDiv p:hover{
-  animation: swaying 3s ease-in-out infinite;
-  color: white;
+  animation: swaying 1s ease-in-out infinite;
+  
 }
 
 #imageDiv{
@@ -69,9 +69,9 @@ body{
 }
 
 @keyframes swaying {
-	0% {transform: translateX(-10px) rotate(-2deg);}
-	25% {transform: translateX(10px) rotate(2deg);}
-	50% {transform: translateX(-10px) rotate(-2deg);}
-	75% {transform: translateX(10px) rotate(2deg);}
-	100% {transform: translateX(-10px) rotate(-2deg);}
+	0% {transform: translateX(-100px) translateY(-50px) rotate(-20deg);}
+	25% {transform: translateX(100px) translateY(0px) rotate(20deg);}
+	50% {transform: translateX(-100px) translateY(50px) rotate(-20deg);}
+	75% {transform: translateX(100px) translateY(0px) rotate(20deg);}
+	100% {transform: translateX(-100px) translateY(-50px) rotate(-20deg);}
 }
